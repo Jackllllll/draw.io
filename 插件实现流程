@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T09:51:26.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="hh1mdlYQjZ41A0MJhyyE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T09:58:14.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nFOpYctDDZ471wUczg5-" version="24.0.7" type="github">
   <diagram name="第 1 页" id="PsVouEPB_q2a5aiWywgY">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nbUr9bp-Nc56xMHgXm_Y-1" target="nbUr9bp-Nc56xMHgXm_Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-1" value="编辑器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nbUr9bp-Nc56xMHgXm_Y-2" target="nbUr9bp-Nc56xMHgXm_Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-2" value="添加插件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nbUr9bp-Nc56xMHgXm_Y-4" target="nbUr9bp-Nc56xMHgXm_Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-4" value="富文本添加一个带插件 id 的占位图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nbUr9bp-Nc56xMHgXm_Y-10" target="nbUr9bp-Nc56xMHgXm_Y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-10" value="后端存储" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nbUr9bp-Nc56xMHgXm_Y-12" target="nbUr9bp-Nc56xMHgXm_Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-12" value="后端替换为 div 占位符" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbUr9bp-Nc56xMHgXm_Y-14" value="帖子回显 - 替换占位符渲染成插件样式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
