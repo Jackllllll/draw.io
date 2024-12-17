@@ -156,8 +156,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xetHdopxWQ2k64ewCEmm-39" value="&lt;div style=&quot;padding-top: 20px; padding-bottom: 0px; margin-top: 0px; margin-left: 20px; margin-bottom: 20px;&quot;&gt;先催芽，速度快&amp;nbsp;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=9;endSize=7;align=center;verticalAlign=top;horizontal=1;spacing=10;spacingLeft=8;jumpSize=200;" edge="1" target="xetHdopxWQ2k64ewCEmm-42" source="xetHdopxWQ2k64ewCEmm-38" parent="xetHdopxWQ2k64ewCEmm-1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0189" relative="1" as="geometry">
             <mxPoint x="550" y="550" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xetHdopxWQ2k64ewCEmm-46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-47" source="xetHdopxWQ2k64ewCEmm-22" parent="xetHdopxWQ2k64ewCEmm-1">
