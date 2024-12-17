@@ -1,9 +1,189 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="YX83Gur0VIGcbLOtLeHS">
-    <mxGraphModel>
+    <mxGraphModel dx="1004" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xetHdopxWQ2k64ewCEmm-1" value="Horizontal Tree Layout" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="197" width="760" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-2" value="种植经验" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="40" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-3" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;种植植物的容器&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="190" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="xetHdopxWQ2k64ewCEmm-1" source="xetHdopxWQ2k64ewCEmm-2" target="xetHdopxWQ2k64ewCEmm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-5" value="土壤" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="190" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="xetHdopxWQ2k64ewCEmm-1" source="xetHdopxWQ2k64ewCEmm-2" target="xetHdopxWQ2k64ewCEmm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-8" source="xetHdopxWQ2k64ewCEmm-3" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-606" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-8" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;特性 or 要求&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-10" source="xetHdopxWQ2k64ewCEmm-8" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="-646" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-10" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;底部排水&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-12" source="xetHdopxWQ2k64ewCEmm-8" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-646" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-12" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;透气&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-14" source="xetHdopxWQ2k64ewCEmm-10" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-566" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-14" value="排掉积水，防止积水导致植物根部腐烂" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="640" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-16" source="xetHdopxWQ2k64ewCEmm-5" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-526" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-16" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;特性 or 要求&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-18" source="xetHdopxWQ2k64ewCEmm-16" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="-470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-18" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;透气&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-20" source="xetHdopxWQ2k64ewCEmm-16" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-466" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-20" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;有机质&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-22" source="xetHdopxWQ2k64ewCEmm-2" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-526" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-22" value="灌溉" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="190" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-24" source="xetHdopxWQ2k64ewCEmm-22" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-366" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-24" value="灌溉系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-26" source="xetHdopxWQ2k64ewCEmm-24" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="-230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-26" value="小米智能插座开关" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-28" source="xetHdopxWQ2k64ewCEmm-24" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-226" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-28" value="电磁阀 + 入水接口 + 出水接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-30" source="xetHdopxWQ2k64ewCEmm-24" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-30" value="可调地插喷淋头" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-31" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-32" source="xetHdopxWQ2k64ewCEmm-24" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-186" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-32" value="水管" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-34" source="xetHdopxWQ2k64ewCEmm-2" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-366" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-34" value="植物" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="190" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-35" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-36" source="xetHdopxWQ2k64ewCEmm-34" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-86" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-36" value="直接播种" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-37" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-38" source="xetHdopxWQ2k64ewCEmm-34" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-38" value="催芽" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-42" value="播种" style="whiteSpace=wrap;html=1;container=0;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="820" width="100" height="40" as="geometry">
+            <mxRectangle x="490" y="721" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-39" value="&lt;div style=&quot;padding-top: 20px; padding-bottom: 0px; margin-top: 0px; margin-left: 20px; margin-bottom: 20px;&quot;&gt;先催芽，速度快&amp;nbsp;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=9;endSize=7;align=center;verticalAlign=top;horizontal=1;spacing=10;spacingLeft=8;jumpSize=200;" edge="1" target="xetHdopxWQ2k64ewCEmm-42" source="xetHdopxWQ2k64ewCEmm-38" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-47" source="xetHdopxWQ2k64ewCEmm-22" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="341" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-47" value="灌溉技巧" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="340" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-49" source="xetHdopxWQ2k64ewCEmm-47" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="777" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-49" value="保持土壤湿润" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="490" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="xetHdopxWQ2k64ewCEmm-51" source="xetHdopxWQ2k64ewCEmm-49" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="877" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xetHdopxWQ2k64ewCEmm-51" value="土壤不干不太湿即可" style="whiteSpace=wrap;html=1;" vertex="1" parent="xetHdopxWQ2k64ewCEmm-1">
+          <mxGeometry x="640" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
